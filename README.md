@@ -56,6 +56,37 @@ This skill is grounded in:
 4. **pysumma** documentation (UW-Hydro/pysumma).
 5. **SUMMA online docs**: https://summa.readthedocs.io.
 
+## Acknowledgments
+
+**Gold-standard references for SUMMA** (use these to cross-check anything in this skill):
+- SUMMA online docs: https://summa.readthedocs.io
+- NCAR/summa repository (master/develop): https://github.com/NCAR/summa
+- CH-Earth/summa active fork (SUNDIALS branch): https://github.com/CH-Earth/summa
+- UW-Hydro/pysumma Python wrapper: https://github.com/UW-Hydro/pysumma
+- Clark et al. foundational papers: 2015a, 2015b, 2015c, 2021
+
+This skill exists only because of the work of other people, and any value it
+has is borrowed from theirs.
+
+- **Martyn Clark** and the **NCAR SUMMA team** for building and maintaining
+  [NCAR/summa](https://github.com/NCAR/summa), and for the foundational
+  Clark et al. (2015a/b/c, 2021) papers that introduce the unified flux /
+  unified treatment framework this skill is built around.
+- The **CH-Earth/summa** fork and the **SUNDIALS-branch** developers for the
+  active engineering work the skill points users toward when they need
+  recent solver behavior.
+- The **UW-Hydro/pysumma** maintainers for the Python wrapper that makes
+  scripting SUMMA workflows tractable for new users.
+- The contributors who wrote the SUMMA Sphinx documentation at
+  https://summa.readthedocs.io.
+- **Zesen Huang** for [laps-skill](https://github.com/huangzesen/laps-skill),
+  the progressive-disclosure layout this repo borrows.
+- Sibling skills `noahmp-skill`, `parflow-skill`, and `vic-skill` for shared
+  structure and cross-references across hydrologic and land-surface models.
+
+Any errors, oversimplifications, or out-of-date claims in this skill are the
+skill author's responsibility, not the upstream community's.
+
 ## Install
 
 This skill follows the same layout as the noahmp-skill and the
